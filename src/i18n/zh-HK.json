@@ -1,0 +1,12 @@
+{
+  "general": {
+    "username": "用戶名稱",
+    "password": "密碼",
+    "submit": "提交",
+    "login": "登入",
+    "Logout": "登出",
+    "Welcome": "歡迎",
+    "Language": "語言",
+    "Err": "登入資料錯誤"
+  }
+}

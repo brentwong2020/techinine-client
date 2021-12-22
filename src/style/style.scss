@@ -1,0 +1,74 @@
+$border-radius: 15px;
+
+button:focus,
+button:active {
+  box-shadow: none !important;
+}
+
+.errMsg {
+  color: red;
+  font-size: 0.8em;
+}
+
+//general style
+.btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+
+  // padding: 5px 10px;
+
+  &--submit {
+    width: fit-content;
+    padding: 5px 20px;
+    background-color: #ffa500;
+  }
+}
+
+.custom-nav-item {
+  width: 100px;
+}
+
+//style
+html,
+body {
+  .dropdown-list {
+    position: relative;
+
+    .dropdown-content {
+      position: absolute;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      background-color: #ced4da;
+      border-radius: 0 0 $border-radius $border-radius;
+
+      :hover {
+        button {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .dropdown-list {
+    &:not(:hover) {
+      .dropdown-content {
+        display: none;
+      }
+    }
+
+    &:hover {
+      background-color: #ced4da;
+      border-radius: $border-radius $border-radius 0 0;
+
+      .dropdown-content {
+        // display: none;
+      }
+    }
+  }
+}

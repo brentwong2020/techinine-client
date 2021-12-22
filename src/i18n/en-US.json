@@ -1,0 +1,12 @@
+{
+  "general": {
+    "username": "Username",
+    "password": "Password",
+    "submit": "Submit",
+    "login": "Login",
+    "Logout": "Logout",
+    "Welcome": "Welcome",
+    "Language": "Language",
+    "Err": "Wrong Login Info"
+  }
+}
